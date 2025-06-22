@@ -3,12 +3,12 @@ entries:
   static-web:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-06-22T08:11:28.711472476Z"
+    created: "2025-06-22T08:17:58.521619332Z"
     description: A Helm chart for Eric's Nginx static website
-    digest: 103a2baf7f164fcdee07e70508d25f443a398c494b89a4af190bb7930a3e7b75
+    digest: 1c3f934b931700b2e84be2ecae31215cf16525d4c131c3ca6492e3ff3a5dea4a
     name: static-web
     type: application
     urls:
     - https://eric-hys.github.io/helm_Demo/static-web-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-22T08:11:28.710975391Z"
+generated: "2025-06-22T08:17:58.521088642Z"

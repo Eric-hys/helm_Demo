@@ -17,7 +17,7 @@ ingress:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/backend-protocol: HTTP
     alb.ingress.kubernetes.io/listen-ports: '[{\"HTTP\":80}]'
-    alb.ingress.kubernetes.io/load-balancer-name: eric-demo-alb
+    alb.ingress.kubernetes.io/load-balancer-name: eks-demo-alb
   hosts:
     - host: 
       paths:
