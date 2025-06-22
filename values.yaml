@@ -1,0 +1,26 @@
+replicaCount: 1
+
+image:
+  repository: eric88348/eric-demo
+  tag: v1
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  className: alb
+  annotations:
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/backend-protocol: HTTP
+    alb.ingress.kubernetes.io/listen-ports: '[{\"HTTP\":80}]'
+    alb.ingress.kubernetes.io/load-balancer-name: eric-demo-alb
+  hosts:
+    - host: 
+      paths:
+        - path: /
+          pathType: Prefix
+
