@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  eric-demo:
+  static_web:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-06-22T03:43:26.185679121Z"
+    created: "2025-06-22T07:20:48.952523944Z"
     description: A Helm chart for Eric's Nginx static website
-    digest: 5bc4dca022ea7476ec27ebec7ffe681ae4eb9be6ee6244d9575e89837013de28
-    name: eric-demo
+    digest: b7bdd1b6f13d62b6c852cda455c805c4b7e2cb3be4cc069f934415e5109c9647
+    name: static_web
     type: application
     urls:
-    - https://eric-hys.github.io/helm_Demo/eric-demo-0.1.0.tgz
+    - https://eric-hys.github.io/helm_Demo/static_web-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-22T03:43:26.185156491Z"
+generated: "2025-06-22T07:20:48.952025369Z"
