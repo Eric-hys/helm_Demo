@@ -1,5 +1,5 @@
 apiVersion: v2
-name: static_web
+name: static-web
 description: A Helm chart for Eric's Nginx static website
 type: application
 version: 0.1.0
